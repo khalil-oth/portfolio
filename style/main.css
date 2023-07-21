@@ -469,4 +469,50 @@ iframe{
     header nav{
         display: none;
     }
+    #hero .cardHolder .card{
+        width: 100%;
+        
+    }
+    #me p{
+        width: 22em;
+    }
+    .bigHolder{
+        padding: 0;
+    }
+    .bigHolder .holder{
+        margin: 0;
+    }
+    .bigHolder .holder section div p{
+        width: 10em;
+    }
+    #skils{
+        width: 100%;
+    }
+    #apititudes .partsHoldder{
+        flex-direction: column;
+        gap: 20px;
+    }
+    #apititudes .partsHoldder .part h3{
+        width: 15em;
+    }
+    #contact .holder{
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+    }
+    form .bigone{
+        flex-direction: column;
+    }
+    form input{
+        width: 20em;
+    }
+    #contact .holder #email{
+        width: 15em;
+    }
+    textarea{
+        width: 15em;
+    }
+    #contact .holder form button{
+        width: 15em;
+    }
 }
