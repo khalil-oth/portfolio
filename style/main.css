@@ -249,6 +249,7 @@ header nav a:hover{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    margin: 1em 0;
 }
 .conteneur-barre2{
     flex: 0 0 100%;
@@ -457,4 +458,15 @@ iframe{
 }
 #projet p{
     width: 20em;
+}
+@media (max-width: 1000px){
+    *{
+        margin: 0;
+    }
+    header{
+        justify-content: center;
+    }
+    header nav{
+        display: none;
+    }
 }
