@@ -469,9 +469,12 @@ iframe{
     header nav{
         display: none;
     }
+    #hero{
+        display: none;
+    }
     #hero .cardHolder .card{
         width: 100%;
-        
+
     }
     #me p{
         width: 22em;
